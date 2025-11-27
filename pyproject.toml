@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = []
 keywords = ["text-adventure", "cli", "game"]
-authors = [{ name = "Kidflash1233" }]
+authors = [{ name = "Kidflash1233" }, { name = "davislcruz" }]
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0"]

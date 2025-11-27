@@ -83,3 +83,7 @@ Extend the map by editing `src/escape_rogue_ai/data.py` and rely on the typed he
 
 ## License
 This project is released under the MIT License (see `LICENSE`).
+
+## Contributors
+- Kidflash1233 — original creator and maintainer
+- davislcruz — gameplay and packaging contributor
