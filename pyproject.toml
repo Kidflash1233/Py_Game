@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "escape-rogue-ai"
+version = "0.1.0"
+description = "A terminal adventure where you outsmart a rogue AI in a cyberpunk campus."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+keywords = ["text-adventure", "cli", "game"]
+authors = [{ name = "Kidflash1233" }]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+escape-rogue-ai = "escape_rogue_ai.__main__:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+pythonpath = ["src"]
