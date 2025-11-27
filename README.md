@@ -17,7 +17,7 @@ source .venv/bin/activate
 pip install -e .[dev]
 ```
 
-Run the game:
+Run the packaged game:
 
 ```bash
 python -m escape_rogue_ai
@@ -28,6 +28,16 @@ or use the console script:
 ```bash
 escape-rogue-ai
 ```
+
+## Classic single-file version
+
+Prefer the original numbered-menu script? Run it directly:
+
+```bash
+python "Escape the Rogue AI.py"
+```
+
+This file matches the original classroom assignment and prints the exact menu flow shown in the project's early commits.
 
 ## Gameplay overview
 
@@ -52,6 +62,7 @@ src/escape_rogue_ai/
 ├── __main__.py         # Entry point for `python -m escape_rogue_ai`
 ├── data.py             # Static map data and constants
 └── game.py             # Game state, menu builder, and CLI loop
+Escape the Rogue AI.py   # Original numbered-menu script
 tests/
 └── test_game.py        # Pytest coverage for the core helpers
 ```
