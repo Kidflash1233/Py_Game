@@ -1,5 +1,10 @@
 # Escape the Rogue AI
 
+[![Tests](https://github.com/Kidflash1233/Py_Game/actions/workflows/tests.yml/badge.svg)](https://github.com/Kidflash1233/Py_Game/actions/workflows/tests.yml)
+[![Python](https://img.shields.io/badge/Python-3.10%20|%203.12-blue?logo=python)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange.svg)](CONTRIBUTING.md)
+
 Terminal-based adventure where you explore a futuristic campus, gather six cyber tools, and shut down a rogue AI in the Mainframe Core. The project now ships as a modern Python package while still including the classic single-file classroom script.
 
 ## Highlights
