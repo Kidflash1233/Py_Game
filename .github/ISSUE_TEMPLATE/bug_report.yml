@@ -1,26 +1,27 @@
 name: Bug report
-description: Report a reproducible bug
+description: Report a bug
 labels: [bug]
 body:
   - type: textarea
-    id: summary
+    id: what
     attributes:
-      label: Summary
-      description: What happened?
+      label: What happened?
+      description: Describe the bug.
     validations:
       required: true
   - type: textarea
-    id: steps
+    id: reproduce
     attributes:
       label: Steps to reproduce
-      description: Exact steps to reproduce
+      placeholder: |
+        1.
+        2.
+        3.
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: expected
     attributes:
       label: Expected behavior
-  - type: textarea
-    id: logs
-    attributes:
-      label: Logs / screenshots
+    validations:
+      required: false
